@@ -7,9 +7,8 @@ You may find whole codes in here. https://github.com/eval-nva5th/maya_usd.git
 
 This is KEY Functions :
 
-1. UserInfo | TaskInfo | ClickedTask in loader
+1. UserInfo |  ClickedTask in loader
     - UserInfo: Retrieves and verifies the user's information.
-    - TaskInfo: Fetches data from Shotgrid and stores it in a nested dictionary format.
     - ClickedTask: When a task is clicked in the task table, one of the nested dictionaries retrieved by TaskInfo is used as a parameter to create the object variable and associates with object class. This object will be used later for Side Widget interactions and for publishing process.
 
 2. Side Widget
